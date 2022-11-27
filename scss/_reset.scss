@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Archivo', sans-serif;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+img{
+    max-width :100%;
+    display: block;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color:  #000201;
+}
