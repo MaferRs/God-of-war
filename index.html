@@ -9,16 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="icon" href="assets/fa" type="image/png">
     <title>God Of War</title>
 </head>
 
 <body>
     <header class="container">
 
-        <img class="sony" src="assets/sony.svg" alt="Logo playstation">
-        <img class="logo" src="assets/logo.png" alt="Logo God of war">
-        <div class="platform">
+        <img class="sony" src="assets/sony.svg" alt="Logo playstation" data-aos="fade-right">
+        <img class="logo" src="assets/logo.png" alt="Logo God of war" data-aos="zoom-in">
+        <div class="platform" data-aos="fade-left">
             <span>Disponivel para </span>
             <ul>
                 <li>PS4</li>
@@ -28,7 +30,7 @@
     </header>
     <section class="s-hero">
         <div class="container">
-            <div class="left">
+            <div class="left" data-aos="fade-right">
                 <h3 class="subtitle">
                     <img src="./assets/bullets.svg" alt="Bullets">
                     <span>Lançamento dia 09/11/2022</span>
@@ -40,7 +42,7 @@
                     </div>
                 </h3>
             </div>
-            <div class="right">
+            <div class="right" data-aos="fade-up">
                 <span>Assista aos trailers</span>
                 <button>
                     <img class="thumbnail" src="assets/thumbnail.gif" alt="thumbnail do trailler">
@@ -53,7 +55,7 @@
             </div>
         </div>
     </section>
-    <section class="s-info-geral">
+    <section class="s-info-geral" data-aos="fade-up">
         <div class="container">
             <ul>
                 <li>
@@ -74,6 +76,10 @@
                 </li>
                 <li>
                     <img src="assets/icon-effect.png" alt="icone efeito">
+                    <span>Efeito Gatilho necessário</span>
+                </li>
+                <li>
+                    <img src="assets/icon-psn-plus.png" alt="psn plus">
                     <span>Compativel com a ajuda do jogo</span>
                 </li>
 
@@ -82,7 +88,7 @@
     </section>
     <section class="s-story">
         <div class="container">
-            <div class="left">
+            <div class="left" data-aos="fade-right">
                 <h3 class="subtitle">
                     <img src="assets/bullets.svg" alt="bullets">
                     <span> Sony Interactive Entertainment</span>
@@ -100,13 +106,13 @@
                     <p>Do Santa Monica Studio, esta é a sequência da aclamada versão de 2018 de God of War. </p>
                 </div>
             </div>
-            <img class="kratos-atreus" src="assets/kratos-atreus.png" alt="Kratos e Atreus">
+            <img class="kratos-atreus" src="assets/kratos-atreus.png" alt="Kratos e Atreus" data-aos="fade-left">
         </div>
     </section>
     <section class="s-characters">
         <div class="container">
             <div class="description">
-                <div class="left">
+                <div class="left" data-aos="fade-right">
                     <h3 class="subtitle">
                         <img src="assets/bullets.svg" alt="Bullets">
                         <span>Conheça os personsagens</span>
@@ -117,7 +123,7 @@
                             quem não está familiarizado com God of War: spoilers à frente.
                         </p>
                 </div>
-                <div class="right">
+                <div class="right" data-aos="fade-left">
                     <img src="assets/axel.png" alt="axel">
                     <div class="text">
                         <img src="assets/logo.jpg" alt="logo">
@@ -125,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="slide-characters">
+            <div class="slide-characters" data-aos="fade-up">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card-character">
@@ -205,6 +211,7 @@
         </div>
 
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>

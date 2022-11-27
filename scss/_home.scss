@@ -2,7 +2,8 @@
     padding-top: 16.4rem;
     padding-bottom: 10.5rem;
     background-image: url("../assets/bg-hero.jpg");
-    background-position: center center;
+    background-position: top center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     height: 60rem;
 
@@ -27,6 +28,7 @@
     }
      .value{
         display: flex;
+        padding: 0 1.6rem;
         strong{
             background-color: white;
             padding: 1.8rem  3.6rem;
@@ -102,12 +104,13 @@
         top:0;
         max-width: 35.3rem;
         button{
-            height: 19.7rem;
+            height: 17.7rem;
         }
     }
 }
 @media(max-width:991px){
     padding: 6rem 0;
+    background-size: cover;
     .container{
         flex-direction: column;
         align-items: center;
@@ -137,21 +140,44 @@
     padding:4rem 0;
     .left{
         h1{
-            font-size: 5rem;
+            font-size: 6rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        p{
+            font-size: 1.4rem;
+            max-width: 80%;
+            margin: 0 auto;
+            margin-bottom: 3rem ;
+        }
+        .value{
+            flex-direction: column;
+        }
+    }
+    .right{
+        max-width:31rem ;
+        .button{
+            height: 17.7rem;
+           
+        }
+        .year-old{
+            p{
+                line-height: 2.4rem;
+            }
         }
     }
 }
 }
 .s-info-geral{
     width: 100%;
-    height: 18rem;
+    height: 12rem;
     display: flex;
     align-items: center;
-     display: none;
     ul{
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
+        padding: 4rem  4rem;
         li{
             display: flex;
             flex-direction: column;
@@ -167,6 +193,28 @@
             }
         }
     }
+    @media(max-width: 1200px){
+        padding: 4rem 0 ;
+        height: auto;
+        ul{
+            flex-wrap: wrap;
+            gap: 3rem  0;
+            li{
+                width: 33.3%;
+            }
+        }
+    }
+    @media(max-width:560px){
+        ul{
+            li{
+                 width: 50%;
+            span{
+                max-width: 14.5rem;
+            }
+            }
+        }
+       
+    }
 }
 .s-story{
     width: 100%;
@@ -175,7 +223,6 @@
     background-image: url("../assets/bg-story.png");
     background-repeat: no-repeat;
     background-position: top;
-     display: none;
   .container{
     display: flex;
     align-items: center;
@@ -210,6 +257,63 @@
     left: 110px;
     top: -45px;
   }
+  @media(max-width:1200px){
+    background-image: none;
+    padding: 6rem 0;
+    .container{
+        flex-direction: column-reverse;
+    }.left{
+        max-width: 100%;
+        text-align: center;
+        .subtitle{
+            justify-content: center;
+        }
+        h2{
+            margin: 2rem auto;
+            max-width: 75%;
+        }
+        .corp{
+            justify-content: center;
+        }
+    }
+    .kratos-atreus{
+        left: 0;
+        top: 0;
+        margin-bottom: 6rem;
+    }
+    
+  }
+  @media(max-width:991px){
+    .left{
+        h2{
+            max-width: 95%;
+        }
+    }
+  }
+  @media(max-width:560px){
+    .left{
+        
+        h2{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 1.6rem;
+            margin-bottom: 4rem;
+            margin: 0 auto;
+            width: 90%;
+        }
+        .corp{
+            flex-direction: column;
+            padding-top: 2rem;
+            p{
+                margin-top:3rem;
+            }
+        }
+    }
+    .kratos-atreus{
+        margin-bottom: 5rem;
+    }
+  }
 
 }
 .s-characters{
@@ -218,7 +322,6 @@
     background-image: url("../assets/bg-characters.png");
     background-position: center center;
     overflow: hidden;
-     display: none;
 
     .description{
         display: flex;
@@ -246,6 +349,49 @@
                     margin-top: 2.2rem;
                 }
             }
+        }
+    }
+    @media(max-width:1200px){
+        padding: 6rem 0;
+    }
+    @media(max-width:991px){
+         .description{
+            flex-direction: column;
+            align-items: center;
+            .left{
+                max-width: 100%;
+                text-align: center;
+                margin-bottom: 4rem;
+            }
+        }
+    }
+    @media(max-width:560px){
+        padding: 4rem  2rem 0;
+        .description{
+            .left{
+                h2{
+                    font-size: 3rem;
+                }
+                p{
+                    padding-top: 2rem;
+                    font-size: 1.6rem;
+                }
+            }
+            .right{
+                flex-direction: column;
+                align-items: center;
+                .text{
+                    img{
+                        margin: 0 auto;
+                    }
+                    span{
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+        .slide-characters{
+        margin-top: 4rem;
         }
     }
 }
