@@ -4,6 +4,7 @@
     background-image: url("../assets/bg-hero.jpg");
     background-position: center center;
     background-repeat: no-repeat;
+    height: 80rem;
     .container{
         display: flex;
         align-items:flex-end ;
@@ -87,5 +88,30 @@
 }
 
 
+}
+.s-info-geral{
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    ul{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            span{
+                display: block;
+                text-align: center;
+                font-weight: 400 ;
+                font-size: 1.6rem;
+                line-height: 160%;
+                color: #BDC2CB;
+                margin-top: 1.2rem;
+            }
+        }
+    }
 }
 
