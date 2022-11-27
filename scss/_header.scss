@@ -9,7 +9,6 @@ header{
         display: flex;
         align-items: center;
       
-        
     }
     .platform{
         display: flex;
@@ -32,5 +31,21 @@ header{
             }
         }
 
+    }
+@media(max-width:560px){
+     header{
+       height: 7rem;
+    }
+     .sony{
+            display: none;
+        }
+        .logo{
+           max-width: 140px;
+        }
+        .platform{
+            span{
+                display: none;
+            }
+        }
     }
 }
