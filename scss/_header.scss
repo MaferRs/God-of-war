@@ -20,7 +20,7 @@ header{
         }
         ul{
             display: flex;
-            margin-left: 1.8rem;
+            margin-left: 1.6rem;
             gap: 0.8rem;
             li{
                 padding: 0.4rem 0.8rem;
@@ -35,6 +35,7 @@ header{
 @media(max-width:560px){
      header{
        height: 7rem;
+    
     }
      .sony{
             display: none;
@@ -45,6 +46,11 @@ header{
         .platform{
             span{
                 display: none;
+            }
+            ul{
+                li{
+                    margin-right:2rem;
+                }
             }
         }
     }
