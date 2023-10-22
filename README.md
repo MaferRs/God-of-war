@@ -1,22 +1,32 @@
-# GOD OF WAR. 
+# GOD OF WAR
 
-##  ⚜️ O projeto.
-<p>Este projeto foi desenvolvido em um evento 100% online e gratuito de 04 dias do Code Boost </p>
-<p>Neste projeto foi desenvolvido uma aplicação web front-end, onde aborda conceitos de animações e responsividade </p>
+## ⚜️ Sobre o Projeto
 
-##  ⚜️Tecnologias Usadas.
-<p>Nele foi utilizado:
-<br>
-🔺HTML5, <br>
-🔺CSS3, <br>
-🔺JavaScript,<br>
-🔺Sass, <br>
-🔺Swiper,<br>
-🔺AOS .</p><br>
- 
- ##  ⚜️Objetivo <br>
-<strong>O intuito desse projeto foi aprender sobre novos conceitos do front-end conhecer  e aprender novas tecnologias</strong>
-<br>
+O projeto GOD OF WAR foi desenvolvido durante o Code Boost, um evento 100% online e gratuito de 4 dias. Esta é uma aplicação web front-end que aborda conceitos de animações e responsividade.
+
+## 💻 Acesso
+
+Você pode acessar o projeto através deste link. O deploy do projeto foi realizado através da plataforma Vercel.
+
 <a href="https://god-of-war-nu.vercel.app/"> 💻Link para acesso </a>
+
+## ⚜️ Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- HTML5
+- CSS3
+- JavaScript
+- Sass
+- Swiper
+- AOS
+
+## ⚜️ Objetivo
+
+O principal objetivo deste projeto foi aprender sobre novos conceitos do front-end e conhecer e aprender novas tecnologias.
+
+
  
 <p> foi usado o vercel para fazer deploy do projeto.</p>
+
+Espero que goste do projeto GOD OF WAR!
